@@ -5,8 +5,37 @@ body{
 }
 
 body > * {
-    border-color: black;
-    border-width: 5px;
-    border-style: solid;
+    flex-grow: 5;
+}
+
+.header, .footer{
     flex-grow: 1;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6%;
+    background-color: #1f2937;
+}
+
+.header-logo{
+    font-family: "Roboto", sans-serif;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+}
+
+a{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
 }
