@@ -1,0 +1,12 @@
+body{
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body > * {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    flex-grow: 1;
+}
