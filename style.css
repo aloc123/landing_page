@@ -1,5 +1,5 @@
 body{
-    height: 170vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
 }
@@ -43,8 +43,6 @@ a{
     color: #e5e7eb;
 }
 
-/*Commit?*/
-
 .section-one{
     display: flex;
     background-color: #1f2937;
@@ -67,7 +65,39 @@ a{
 
 .main-subtext{
     font-family: "Roboto", sans-serif;
-    color: #f9faf8;
-    font-size: 18dpx;
+    color: #e5e7eb;
+    font-size: 16px;
     margin-bottom: 10px;
+}
+
+.info-header{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+    padding: 30px 0;
+}
+
+.window{
+    width: 140px;
+    height: 140px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.caption{
+    width: 140px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-size: 16px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
 }
